@@ -1,0 +1,8 @@
+# Base production requirements
+-r requirements.txt
+
+# Code formatter (line length: 88, PEP 8)
+black>=24.4.0,<25.0.0
+
+# Linter for code style checking (configured via .flake8)
+flake8>=7.0.0,<8.0.0
